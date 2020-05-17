@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+
+/*-----navbar---*/
+
+.navbar {
+    background-image: url("../images/header2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+    background-position: center;
+    font-family: "Satisfy",sans-serif;
+    font-size: 50px;
+    text-align: left;
+}
+
+@media (min-width:480px){
+    .navbar{
+      padding-top: 400px;
+    }
+}
+
+/*----footer----*/
+
+footer {
+    background-color: #DFAA02;
+    color: #fafafa;
+    min-height: 120px;
+}
+
+
+.list-inline.social-links {
+    padding-left: 0;
+    list-style: none;
+    background-color: #DFAA02;
+    font-size:80px;
+    color: #fafafa;
+   
+}
