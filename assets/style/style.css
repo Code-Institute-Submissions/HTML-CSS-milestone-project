@@ -23,8 +23,11 @@
 
 footer {
     background-color: #DFAA02;
-    color: #fafafa;
     min-height: 120px;
+}
+
+#footer-details{
+    padding: 20px;
 }
 
 
@@ -33,6 +36,25 @@ footer {
     list-style: none;
     background-color: #DFAA02;
     font-size:80px;
-    color: #fafafa;
+    
    
+}
+
+.social-links li a {
+    color: silver;
+}
+
+.download-cv p {
+     font-size: 35px;
+     color: black;
+    font-family: "Satisfy",sans-serif;
+    margin-top: 30px;
+
+}
+
+
+
+.fa-download:before {
+    color: silver;
+    
 }
