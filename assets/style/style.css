@@ -19,6 +19,7 @@
     }
 }
 
+
 /*----footer----*/
 
 footer {
@@ -32,30 +33,32 @@ footer {
 
 
 .list-inline.social-links {
-    padding-left: 0;
+    padding-right: 30px;
     list-style: none;
     background-color: #DFAA02;
-    font-size:80px;
-    
+    font-size:30px;
+    padding-top: 20px;
+    text-align: center;
    
 }
 
 .social-links li a {
-    color: silver;
+    color: #dfe0df;
 }
 
 .download-cv p {
-     font-size: 35px;
-     color: black;
+     font-size: 20px;
+      color: black;
     font-family: "Satisfy",sans-serif;
     margin-top: 30px;
+    text-align: center;
 
 }
 
 
 
 .fa-download:before {
-    color: silver;
+    color: #dfe0df;
     
 }
 
@@ -66,10 +69,16 @@ h1 {
     text-align: center;
     font-weight: 200;
     padding-top: 30px;
+    color: #402e32;
 }
 
 p {
     font-family: "Raleway",sans-serif;
+    color: #4e4634;
+}
+
+.background-color {
+    background-color: #dfe0df;
 }
 
 /*---front page---*/
