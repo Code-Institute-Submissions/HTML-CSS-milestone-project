@@ -70,6 +70,7 @@ h1 {
     font-weight: 400;
     padding-top: 30px;
     color: #402e32;
+    font-size: 70px;
 }
 
 p {
@@ -305,12 +306,21 @@ p {
         }
 }
 
-
+/*--- recieved from https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-carousel.php----- */
 .carousel{
-    background: #2f4357;
-   
+   padding: 20px;
 }
 .carousel-item{
     text-align: center;
-    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+    min-height: 280px; 
+}
+
+/*---projects---*/
+
+.img-fluid {
+   padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
 }
