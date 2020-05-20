@@ -1,15 +1,3 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
-
-Welcome ajgoward,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
 # Andrew Gowards Resume
 
 This will be a website that combines simplicity and functionality for the use of Recruiters or potential employers/coabilaters. It is easy to follow and  to use and will provide concise information about myself, my work/education history, projects and also feature a download of my CV.
@@ -18,76 +6,100 @@ Aswell as this it will include a contact form for anyone interested in working w
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+### This website is for:
+* Recruiters 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+* Potential collaborators 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+* Employers 
 
-## Features
+### What they want to achieve:
+* Learn about me and my current situation 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+* Learn what coding languages I am proficient in 
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+* Learn a work and education history 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+*	See what projects I have been involved in
 
-### Features Left to Implement
-- Another feature idea
+*	Contact me 
 
-## Technologies Used
+*	Download my CV for more in depth information 
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+*	(Most important) do it in a time efficient way 
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+### How will they achieve it:
+* By making my website mobile first I can achieve a suitable layout of the website across all platforms just for the instance a user looks at it on mobile/tablet/desktop 
+
+*	All sections will be clear and concise to deliver as much information in a short space of time 
+
+*	There will be different pages so a user can jump from to the most relevant information 
+
+*	Each of my integrated links will open on a separate tab to avoid the user coming away from the main content 
+
+### Wireframes 
+
+For this I used balsamiq please find the pdf in the **Wireframes** file 
+
+## Existing Features 
+*	Navigation bar- allows all users to select the content they want to view by simply clicking them , this also collapses into a toggle on mobile devices to maintain space 
+
+*	Subheadings-this allows users find the information they need 
+
+*	Graph- this allows users see which languages I am proficient in , in a easy to read/understand manner 
+*	Timeline- can easily see my professional life in a date order 
+*	Carousel- can easily see my projects and can click the links to open a new tab to view my projects in work 
+*	Contact form- separate boxes for name , email , and description  and a submit button 
+*	Social links- to view my different social pages in a new tab 
+*	Download link- to download my CV in pdf format and view it in a new tab 
+### Features I would like 
+*	Examples of different coding languages I have used to best showcase what I can do 
+### Technologies used
+*	HTML5- standard language of a webpage 
+
+*	CSS3- for customised styling 
+*	Javascript- I used this for the automaton of the navbar and carousel 
+*	Bootstrap – I used this for styling of the webpage and to make it more responsive 
+
+## Testing 
+During the creation of this project I viewed the webpage in the browser and used google developer tools to make sure the project looks good and works on all devices.
+i tested each user story as follows:
+*	Learn about me and my current situation- go to home page , read about me 
+
+*	Learn what languages I am proficient in – go to home page – under subsection “what can I do" – can clearly see a graph starting with what I’m comfortable in going down 
+*	Learn about my work and education- click on the resume section on nav bar – can see all my work and education history in a timeline format 
+*	See what projects I have been involved in- click on the projects section on nav bar – can see my projects in a carousel format with links – if viewing on mobile devices can see this in a list view as to not slow down the website- each link opens in new tab
+*	Contact me – click on contact section on the nav bar – can clearly see a form with clear placeholder text – type invalid information – see invalid input message – type correct information and see success box 
+*	Download cv – scroll down to footer on every page see the message “download CV” click on the download symbol – CV downloads in pdf format and can be viewed in separate tab
+*	Do in a time efficient way – everything is set out in headings and sub headings so the user can jump to necessarily information 
 
 
-## Testing
+This project also works on all devices and changes to fit the screen. There was a interesting bug when I followed the wireframes the hero image and the navigation bar was different on every device view,  ie the image looked different . But after speaking to my mentor he suggested placing the nav bar above the hero image which fixed all bugs .
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+## Deployment 
 
 
-## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
-### Media
-- The photos used in this site were obtained from ...
+## Credits 
+### Code 
+*	Code institute for the knowledge and use of there code practices -https://courses.codeinstitute.net/login
 
-### Acknowledgements
+*	Bootstarp- for use of the carousel  https://getbootstrap.com/docs/4.0/components/carousel/ 
+*	Tutorial on how to put the carousel in https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-carousel.php     
+*	Bootstrap- for style sheet , nav bar  https://getbootstrap.com/
+*	Bootsnip for the timeline -https://bootsnipp.com/snippets/OzQj
+*	W3schools – for tutorials and code uses -https://www.w3schools.com/ 
 
-- I received inspiration for this project from X
+### Media 
+* Hero image -https://unsplash.com/photos/1_CMoFsPfso
+
+* Font awesome -https://fontawesome.com/icons?d=gallery
+* Google fonts -https://fonts.google.com/
+* Colors – I used this website for the navbar and footer , it’s a website you can get the html code of an image https://html-color-codes.info/colors-from-image/ .
+And then I used this website to find complementing colours https://mycolor.space
+
+
+Acknowledgment 
+
+I got my inspiration from Code Institute and for the layout of the page i got inspiration from https://www.themuse.com/advice/the-35-best-personal-websites-weve-ever-seen
