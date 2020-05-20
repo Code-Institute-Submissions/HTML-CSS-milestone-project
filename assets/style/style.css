@@ -3,8 +3,22 @@
 /*-----navbar---*/
 .navbar{
     font-size: 30px;
-    font-family: "Satisfy",sans-serif;
     background-color: #F7C100;
+}
+
+/*--https://stackoverflow.com/questions/30155699/bootstrap-navbar-font-change-inquiry--*/
+.navbar a{
+    font-family: "Satisfy",sans-serif !important;
+    color:  #4e4634 !important;
+}
+
+.navbar-brand{
+    font-family: "Satisfy",sans-serif;
+    font-size: 20px;
+    
+}
+.navbar-light .navbar-brand {
+    color: #4e4634;
 }
 
 .full-image {
@@ -35,7 +49,7 @@ footer {
     list-style: none;
     background-color: #DFAA02;
     font-size:30px;
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center;
    
 }
@@ -46,7 +60,7 @@ footer {
 
 .download-cv p {
      font-size: 20px;
-      color: black;
+      color:  #4e4634;
     font-family: "Satisfy",sans-serif;
     margin-top: 30px;
     text-align: center;
@@ -97,9 +111,12 @@ a {
 }
 
 h4,h5 {
-  font-family: "Raleway",sans-serif;
+  font-family: "Satisfy",sans-serif;
     color: #4e4634;
     font-weight: 400;
+    padding: 20px;
+    margin: 0;
+    font-size: 30px;
 }
 
 /*---front page---*/

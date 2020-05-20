@@ -53,7 +53,9 @@ For this I used balsamiq please find the pdf in the **Wireframes** file
 *	Social links- to view my different social pages in a new tab 
 *	Download link- to download my CV in pdf format and view it in a new tab 
 ### Features I would like 
-*	Examples of different coding languages I have used to best showcase what I can do 
+*	Examples of different coding languages I have used to best showcase what I can do
+
+*   A success message when the contact form is submitted 
 ### Technologies used
 *	HTML5- standard language of a webpage 
 
@@ -69,7 +71,7 @@ i tested each user story as follows:
 *	Learn what languages I am proficient in – go to home page – under subsection “what can I do" – can clearly see a graph starting with what I’m comfortable in going down 
 *	Learn about my work and education- click on the resume section on nav bar – can see all my work and education history in a timeline format 
 *	See what projects I have been involved in- click on the projects section on nav bar – can see my projects in a carousel format with links – if viewing on mobile devices can see this in a list view as to not slow down the website- each link opens in new tab
-*	Contact me – click on contact section on the nav bar – can clearly see a form with clear placeholder text – type invalid information – see invalid input message – type correct information and see success box 
+*	Contact me – click on contact section on the nav bar – can clearly see a form with clear placeholder text – type invalid information – see invalid input message 
 *	Download cv – scroll down to footer on every page see the message “download CV” click on the download symbol – CV downloads in pdf format and can be viewed in separate tab
 *	Do in a time efficient way – everything is set out in headings and sub headings so the user can jump to necessarily information 
 
@@ -90,6 +92,8 @@ This project also works on all devices and changes to fit the screen. There was 
 *	Bootstrap- for style sheet , nav bar  https://getbootstrap.com/
 *	Bootsnip for the timeline -https://bootsnipp.com/snippets/OzQj
 *	W3schools – for tutorials and code uses -https://www.w3schools.com/ 
+
+* navbar overide of font family - https://stackoverflow.com/questions/30155699/bootstrap-navbar-font-change-inquiry
 
 ### Media 
 * Hero image -https://unsplash.com/photos/1_CMoFsPfso
