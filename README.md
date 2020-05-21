@@ -82,7 +82,9 @@ I also validated my code on W3C Markup Validator
 
 ## Deployment 
 
+I Deployed my app on GitPages please find it here: https://ajgoward.github.io/HTML-CSS-milestone-project/
 
+When i deployed my project i sent it to freinds and family for feedback as further testing of the product.
 
 
 
