@@ -39,7 +39,7 @@ Aswell as this it will include a contact form for anyone interested in working w
 
 ### Wireframes 
 
-For this I used balsamiq please find the pdf in the **Wireframes** file 
+For this I used balsamiq please find the pdf in the [Wireframes](../Wireframes/resumeproject.pdf)
 
 ## Existing Features 
 *	Navigation bar- allows all users to select the content they want to view by simply clicking them , this also collapses into a toggle on mobile devices to maintain space 
@@ -78,7 +78,10 @@ i tested each user story as follows:
 
 This project also works on all devices and changes to fit the screen. There was a interesting bug when I followed the wireframes the hero image and the navigation bar was different on every device view,  ie the image looked different . But after speaking to my mentor he suggested placing the nav bar above the hero image which fixed all bugs .
 
+I also validated my code on W3C Markup Validator
+
 ## Deployment 
+
 
 
 
@@ -92,6 +95,9 @@ This project also works on all devices and changes to fit the screen. There was 
 *	Bootstrap- for style sheet , nav bar  https://getbootstrap.com/
 *	Bootsnip for the timeline -https://bootsnipp.com/snippets/OzQj
 *	W3schools – for tutorials and code uses -https://www.w3schools.com/ 
+*   stack overflow - for use of ml-auto - https://stackoverflow.com/questions/41513463/bootstrap-4-align-navbar-items-to-the-right
+*   W3C CSS - validation of my css - https://jigsaw.w3.org/css-validator/
+*   W3C - validation of my HTML - https://validator.w3.org/
 
 * navbar overide of font family - https://stackoverflow.com/questions/30155699/bootstrap-navbar-font-change-inquiry
 
