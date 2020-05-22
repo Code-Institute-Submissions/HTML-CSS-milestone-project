@@ -39,7 +39,7 @@ Aswell as this it will include a contact form for anyone interested in working w
 
 ### Wireframes 
 
-For this I used balsamiq please find the pdf in the [Wireframes](../Wireframes/resumeproject.pdf)
+For this I used balsamiq please find the pdf in the [Wireframes](Wireframes/resumeproject.pdf)
 
 ## Existing Features 
 *	Navigation bar- allows all users to select the content they want to view by simply clicking them , this also collapses into a toggle on mobile devices to maintain space 

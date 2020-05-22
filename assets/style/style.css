@@ -365,6 +365,19 @@ h4,h5 {
     padding-top: 30px;
 }
 
+/*--recived the original button from bootsrap and used the styling to make my own to validate on W3--*/
+.personalised-button{
+    background-color:  #F7C100;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 30px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s;
+}
 
 /*---contact---*/
 
