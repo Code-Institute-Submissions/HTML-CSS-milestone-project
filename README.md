@@ -76,13 +76,42 @@ i tested each user story as follows:
 *	Do in a time efficient way – everything is set out in headings and sub headings so the user can jump to necessarily information 
 
 
-This project also works on all devices and changes to fit the screen. There was a interesting bug when I followed the wireframes the hero image and the navigation bar was different on every device view,  ie the image looked different . But after speaking to my mentor he suggested placing the nav bar above the hero image which fixed all bugs .
+### I have tested this project on these devices: 
+
+* Iphone 
+* Laptop 
+* Desktop 
+* Tablet 
+* Samsung S10
+
+### Interesting Bugs and how i fixed it :
+
+* Navigation bar and hero image were different sizes on all devices - i moved the navbar to the top of the image and styled each seperatly which fixed the issue
+
+* project.html was not validating correctly - noticed i had a space instead of a "-" on one of the image names so changed that to make it validate - 
+  Also changed the button function to my own custom button as the anchor tag wasnt allowing it to validate as correct.
+
+### Validation
 
 I also validated my code on W3C Markup Validator
 
 ## Deployment 
 
 I Deployed my app on GitPages please find it here: https://ajgoward.github.io/HTML-CSS-milestone-project/
+
+### This is how i did it 
+
+ 1. I went on Github on my browser 
+
+ 2. Selected the HTML-CSS-milestone-project repository 
+
+ 3. Under the repository name I clicked on settings 
+
+ 4. Under the GithubPages subsection click the drop down box 
+
+ 5. click on the masterbranch and it will load as a webpage 
+
+ 6. Dont worry if it takes a while to load as this is usual 
 
 When i deployed my project i sent it to freinds and family for feedback as further testing of the product.
 
